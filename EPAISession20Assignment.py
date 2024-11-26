@@ -66,10 +66,3 @@ class Circle:
     def diameter(self):
         return self._radius * 2
            
-c = Circle(20)
-#print (c.__dict__)
-#print (Circle.__dict__)
-#print (c.diameter)
-c.radius = 5
-print (c.diameter)
-print (c.area)
